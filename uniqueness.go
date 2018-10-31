@@ -6,6 +6,11 @@ import (
 	"strconv"
 )
 
+/*
+ * This application will return unique strings of a given length from
+ * a given string.
+ */
+
 func ChopUp(s string, n int) map[string]int {
 	if 0 == len(s) || n > len(s) || 0 >= n {
 		return nil
